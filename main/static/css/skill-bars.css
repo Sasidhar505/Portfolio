@@ -74,6 +74,7 @@
 .bar .progress-line.mysql span{
   width: 75%;
 }
+
 .progress-line span::before{
   position: absolute;
   content: "";
