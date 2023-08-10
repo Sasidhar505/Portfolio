@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
 
     "main",
-    "storages"
+    "storages",
     "whitenoise.runserver_nostatic",
     "django.contrib.admin",
     "django.contrib.auth",
