@@ -156,11 +156,13 @@ html {
 }
 
 body {
+	
   overflow: hidden;
   font-size: 100%;
 }
 
 nav {
+	
 	top: 10vh;
 	bottom: 10vh;
   	text-align: center;
@@ -260,6 +262,7 @@ nav a:hover::before {
 }
 
 .slides {
+	background-image: url(../img/first_bg.jpg);
   width: 600vw;
   height: 100vh;
   -webkit-transition: -webkit-transform 0.8s ease;
@@ -294,21 +297,21 @@ nav a:hover::before {
     background: rgba(250, 250, 250, 0.5);
 }
 
-.slides .slide:nth-child(1) {
-  background-image: url(../img/first_bg.jpg);
-}
-.slides .slide:nth-child(2) {
-  background-image: url(../img/second_bg.jpg);
-}
-.slides .slide:nth-child(3) {
-  background-image: url(../img/third_bg.jpg);
+/* .slides .slide:nth-child(1) {
+  
+} */
+/* .slides .slide:nth-child(2) {
+  
+} */
+/* .slides .slide:nth-child(3) {
+  
 }
 .slides .slide:nth-child(4) {
-  background-image: url(../img/fourth_bg.jpg);
+  
  }
 .slides .slide:nth-child(5) {
-  background-image: url(../img/fifth_bg.jpg);
-}
+  
+} */
 .slides .slide:nth-child(6) {
   background-image: url(../img/fourth_bg.jpg);
 }
@@ -324,6 +327,7 @@ nav a:hover::before {
 
 
 .first-content {
+	background-image: url(../img/first_bg.jpg);
 	padding: 100px;
 	text-align: left;
 	padding-top: 13%;
@@ -406,7 +410,9 @@ nav a:hover::before {
 	background-color: transparent;
 }
 
-
+.second-content {
+	background-image: url(../img/second_bg.jpg);
+}
 .second-content .container-fluid {
 	padding-right: 0px;
 	padding-left: 0px;
@@ -470,6 +476,7 @@ nav a:hover::before {
 
 
 .third-content {
+	background-image: url(../img/third_bg.jpg);
 	text-align: left;
 	padding: 30px;
 }
@@ -542,6 +549,7 @@ nav a:hover::before {
 
 
 .fourth-content {
+	background-image: url(../img/fourth_bg.jpg);
 	padding: 5px;
 }
 
@@ -620,6 +628,9 @@ nav a:hover::before {
 }
 
 
+.fifth-content {
+	background-image: url(../img/fifth_bg.jpg);
+}
 
 .fifth-content .container-fluid {
 	padding-left: 0px;
