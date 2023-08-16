@@ -5,7 +5,6 @@ from .models import Ma_Works
 
 
 def index(request):
-    
     return render(request,'index.html'  )
 
 def about(request):
